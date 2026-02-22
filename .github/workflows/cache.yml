@@ -16,7 +16,7 @@ jobs:
         id: cache
         uses: actions/cache@v4
         with:
-          path: ~/.npm
+          path: ~/.cache
           key: cache-896638f
 
       - name: prime-cache-896638f
